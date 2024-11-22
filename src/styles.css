@@ -1,0 +1,94 @@
+.cards {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 3px;
+  margin-bottom: 15px;
+}
+
+.card {
+  width: 40px;
+  height: 40px;
+}
+
+.bank {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+}
+
+.active {
+  filter: none;
+}
+
+.container {
+  width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.input-field,
+.btn {
+  height: 30px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 6px 12px;
+}
+
+.input-field {
+  width: 170px;
+  margin-right: 8px;
+  vertical-align: middle;
+  color: #555;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  border: 1px solid transparent;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: #1e501e;
+}
+
+.input-field:focus {
+  border-color: #66afe9;
+  box-shadow:
+    inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.answer {
+  width: 100%;
+}
+
+.success,
+.failure {
+  display: none;
+  width: 100%;
+  height: 30px;
+}
+
+.show_answer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 8px;
+}
+
+.icon {
+  height: 100%;
+  width: auto;
+}

@@ -1,0 +1,36 @@
+yarn run v1.22.22
+$ webpack serve --config webpack.dev.js
+<w> [webpack-dev-server] "hot: true" automatically applies HMR plugin, you don't have to add it manually to your webpack configuration.
+<i> [webpack-dev-server] Project is running at:
+<i> [webpack-dev-server] Loopback: http://localhost:8080/
+<i> [webpack-dev-server] On Your Network (IPv4): http://192.168.1.2:8080/
+<i> [webpack-dev-server] On Your Network (IPv6): http://[fe80::1]:8080/
+<i> [webpack-dev-server] Content not from webpack is served from '/Users/elizavetaturova/Desktop/frontend/testing/public' directory
+<i> [webpack-dev-server] 404s will fallback to '/index.html'
+<i> [webpack-dev-middleware] wait until bundle finished: /
+assets by path *.png 91.2 KiB
+  asset b86bedc1a22f0c6eecea.png 34 KiB [emitted] [immutable] [from: src/img/free-icon-money-15465395.png]
+  asset c0d9cac5039e03d254b8.png 19.2 KiB [emitted] [immutable] [from: src/img/free-icon-american-express-349228.png]
+  asset d5becb1f1affb962e0cb.png 18.8 KiB [emitted] [immutable] [from: src/img/1933708_charge_credit card_diners club_payment_icon.png]
+  asset b9d988eca53a9e23b883.png 16.8 KiB [emitted] [immutable] [from: src/img/free-icon-visa-349221.png]
+  asset 91c33c5e92f2e8d07639.png 1010 bytes [emitted] [immutable] [from: src/img/icons8-discover-48.png]
+  asset abf8609a4f8a8c5d9b5b.png 874 bytes [emitted] [immutable] [from: src/img/icons8-jcb-48.png]
+  asset ee68fa66dc6ee5f0e302.png 637 bytes [emitted] [immutable] [from: src/img/icons8-мир-48.png]
+assets by chunk 649 KiB (name: main)
+  asset main.js 645 KiB [emitted] (name: main)
+  asset main.css 3.43 KiB [emitted] (name: main)
+asset licenses.txt 17.5 KiB [emitted]
+asset ./index.html 1.45 KiB [emitted]
+Entrypoint main 649 KiB = main.css 3.43 KiB main.js 645 KiB
+runtime modules 42.7 KiB 21 modules
+orphan modules 5.72 KiB [orphan] 3 modules
+javascript modules 181 KiB
+  modules by path ./node_modules/ 178 KiB 28 modules
+  modules by path ./src/ 2.61 KiB
+    modules by path ./src/js/*.js 2.22 KiB
+      ./src/js/check.js 1.2 KiB [built] [code generated]
+      ./src/js/DOM_connection.js 1.02 KiB [built] [code generated]
+    ./src/index.js 79 bytes [built] [code generated]
+    ./src/styles.css 323 bytes [built] [code generated]
+css ./node_modules/css-loader/dist/cjs.js!./src/styles.css 966 bytes [built] [code generated]
+webpack 5.91.0 compiled successfully in 767 ms
